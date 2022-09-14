@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aafe477f-252e-4a7c-85dd-01bd0dfc124a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gradle/7.5/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/7.5/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filename.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/MvcApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/controller/ApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/controller/DeleteApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/controller/GetApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/controller/PageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/controller/PostApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/controller/PutApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/dto/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/dto/PostRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/dto/PutRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/dto/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/dto/UserReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mvc/dto/UserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/example/mvc/MvcApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ElItJDaGsm7tVzyxSPAcpxK0i1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/springboot-start/ioc_di_java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aafe477f-252e-4a7c-85dd-01bd0dfc124a" name="Changes" comment="" />
+      <created>1663163959163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663163959163</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
