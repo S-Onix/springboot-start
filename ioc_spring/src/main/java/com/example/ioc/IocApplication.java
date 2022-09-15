@@ -12,6 +12,7 @@ public class IocApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(IocApplication.class, args);
 
+		//Spring Container(bean Factory)에 등록된 Bean을 AppicationContext를 통해 가져옴
 		ApplicationContext context = ApplicationContextProvider.getContext();
 		Encoder encoder = context.getBean("base64Encode",Encoder.class);
 
@@ -29,6 +30,7 @@ public class IocApplication {
 //직접 bean을 등록시킴
 @Configuration
 class AppConfig{
+	//미리 객체를 주입시켜넣음 (DI)
 	@Bean("base64Encode")
 	public Encoder encoder(Base64Encoder base64Encoder){
 		return new Encoder(base64Encoder);
