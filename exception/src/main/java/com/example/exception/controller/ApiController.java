@@ -3,17 +3,28 @@ package com.example.exception.controller;
 import com.example.exception.dto.User;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @RestController
 @RequestMapping("/api")
+@Validated
 public class ApiController {
 
     @GetMapping("")
-    public User get(@RequestParam(required = false) String name, @RequestParam(required = false) Integer age){
+    public User get(
+            //@Validated 를 통해서 아래 validation 어노테이션이 동작하게됨
+            @Size(min = 2)
+            @RequestParam String name,
+            @NotNull
+            @Min(1)
+            @RequestParam Integer age){
         User user = new User();
         user.setName(name);
         user.setAge(age);
@@ -26,13 +37,5 @@ public class ApiController {
     public User post(@Valid @RequestBody User user) {
         System.out.println(user);
         return user;
-    }
-
-
-    //Exception 처리에 우선권을 가지게 된다.
-    @ExceptionHandler(value = MethodArgumentNotValidException.class)
-    public ResponseEntity methodArgumentNotValidException(MethodArgumentNotValidException e){
-        System.out.println("----------- ApiController -----------------");
-        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage());
     }
 }
