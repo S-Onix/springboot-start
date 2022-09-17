@@ -1,0 +1,28 @@
+package org.example;
+
+public class DollarCalculator implements ICalculate{
+    private int price = 1;
+    MarketApi marketApi;
+
+    public DollarCalculator(MarketApi marketApi) {
+        this.marketApi = marketApi;
+    }
+
+    public void init() {
+        this.price = marketApi.connect();
+    }
+
+    @Override
+    public int sum(int x, int y) {
+        x *= price;
+        y *= price;
+        return x + y;
+    }
+
+    @Override
+    public int sub(int x, int y) {
+        x *= price;
+        y *= price;
+        return x-y;
+    }
+}
